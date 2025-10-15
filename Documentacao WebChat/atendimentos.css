@@ -1,0 +1,42 @@
+.img-inicial{
+    width: 650px;
+    height: 300px;
+    border: 3px solid rgb(200, 81, 81);
+    border-radius: 10px;
+}
+
+.paragrafo-imagem{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.paragrafo{
+    width: 30%;
+}
+
+.imagem {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img{
+    width: 800px;
+    height: 330px;
+    border-radius: 5px;
+}
+
+.ponto{
+    height: 100%;
+    background-color: black;
+    width: .1%;
+}
+
+.passo{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

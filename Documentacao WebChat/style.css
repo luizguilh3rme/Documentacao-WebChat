@@ -1,0 +1,29 @@
+.title{
+    color: rgb(200, 81, 81) ;
+    padding: 2rem 0;
+}
+
+.img{
+    position: absolute;
+    width: 200px;
+    padding: 10px 0 0 10px;
+}
+
+.card:hover{
+    background-color: rgb(241, 83, 83);
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    cursor: pointer;
+}
+
+.card{
+    border-radius: 5%;
+    border: 1.5px solid;
+}
